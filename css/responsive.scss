@@ -1,0 +1,128 @@
+@media only screen and (max-width: 1250px) {
+  .wrapper {
+    max-width: 850px;
+  }
+  .sec3 .textbox {
+    padding: 30px 0px;
+  }
+  .sec3 .textbox .box {
+    width: 580px;
+  }
+  .sec3 .textbox .box a {
+    width: calc(50% - 5px)
+  }
+}
+@media only screen and (max-width: 850px) {
+  .wrapper {
+    max-width: 500px;
+  }
+  .sec2 h1 {
+    font-size: 36px;
+  }
+  .sec2 h2 {
+    margin-top: 13px;
+    font-size: 23px;
+  }
+  .sec3 .textbox .box {
+    width: 100%;
+    display: block;
+  }
+  .sec2 p {
+    margin-top: 21px;
+    font-size: 16px;
+  }
+  .sec3 {
+    background-color: #fff;
+  }
+  .sec3 .textbox h1 {
+    font-size: 26px;
+  }
+  .sec3 .textbox .box a {
+    font-size: 20px;
+    margin-bottom: 10px;
+    max-width: 400px;
+    width: 100%
+  }
+  .sec4 p {
+    color: #fff;
+    font-size: 10px;
+    line-height: 125%;
+    br {
+      display: none;
+    }
+  }
+  .sec3 .textbox .box .arow {
+    left: -2px;
+    bottom: 25px;
+    display: none;
+  }
+  .sec3 .question1 .box a:last-child,.sec3 .question2 .box a:nth-last-child(2),.sec3 .question2 .box a:nth-last-child(1),.sec3 .question3 .box a:nth-last-child(2),.sec3 .question3 .box a:nth-last-child(1){
+    margin-top: 0;
+  }
+  .sec3 .question4 .box .inputs_full_name input, .sec3 .question4 .box .inputs input{
+    width: 100%;
+    margin: 0;
+    max-width: 380px;
+  }
+  .sec3 .question4 .box button{
+    max-width: 380px;
+    width: 100%
+  }
+  .sec3 .question4 .box .inputs input{
+    font-size: 26px;
+    &::placeholder{
+      font-size: 26px;
+    }
+  }
+  .sec3 .question4 .box .inputs{
+    display: block;
+  }
+  .sec2{
+    a{
+      overflow-wrap: break-word;
+    }
+  }
+  .sec3 .changable_popup .question{
+    padding: 25px 10px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .wrapper {
+    max-width: 400px;
+  }
+  .sec1 {
+    height: 120px;
+  }
+  .sec1 img {
+    width: 220px;
+  }
+  .sec2 h1 {
+    font-size: 30px;
+  }
+  .sec2 h2 {
+    font-size: 20px;
+  }
+  .sec2 p {
+    br {
+      display: none;
+    }
+    margin-top: 21px;
+    font-size: 15px;
+  }
+  .sec3 .textbox {
+    padding: 10px 0px;
+  }
+  .sec3 .textbox h1 {
+    font-size: 30px;
+  }
+  .sec3 .textbox .box a {
+    font-size: 15px;
+  }
+  .sec4 p {
+    font-size: 12px;
+    line-height: 125%;
+  }
+  .sec3 .textbox h1{
+    font-size: 24px;
+  }
+}
